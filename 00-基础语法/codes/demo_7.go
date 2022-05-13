@@ -9,7 +9,7 @@ func main() {
 	fmt.Printf("len=%d cap=%d slice=%v\n",len(sli_1),cap(sli_1),sli_1)
 
 	var sli_2 = [] int {} //空切片
-	fmt.Printf("len=%d cap=%d slice=%v\n",len(sli_1),cap(sli_2),sli_2)
+	fmt.Printf("len=%d cap=%d slice=%v\n",len(sli_2),cap(sli_2),sli_2)
 
 	var sli_3 = [] int {1, 2, 3, 4, 5}
 	fmt.Printf("len=%d cap=%d slice=%v\n",len(sli_3),cap(sli_3),sli_3)
